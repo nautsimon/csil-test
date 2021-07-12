@@ -1,0 +1,330 @@
+/* 
+HEX COLORS FROM FIGMA
+red: #fc6059 
+light grey: #f7f7ff
+light blue: #bed5e9
+regular blue: #587498
+dark blue: #4a5866
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body,
+html,
+.App {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Monaco;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Monaco";
+  src: local("Monaco"), url("./fonts/Monaco.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* FOOTER */
+footer {
+  text-align: left;
+  background-color: #4a5867;
+  width: 100%;
+  color: #f2f2f2;
+  padding: 50px 0px;
+}
+.footer-title {
+  margin-bottom: 25px;
+  font-size: 30pt;
+}
+/* FOOTER */
+
+/* GENERAL - IMAGES */
+
+.circleImage {
+  border-radius: 50%;
+}
+.paddingImageM {
+  width: 80%;
+  margin: 10%;
+}
+/* GENERAL - IMAGES */
+
+/* GENERAL - BUTTONS AND INPUT */
+button {
+  margin: 0px;
+  padding: 0pc;
+  /* width: 100%; */
+  padding: 11px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: bold;
+  transition: all 0.7s;
+  color: white;
+}
+
+input {
+  margin: 0px;
+  padding: 0pc;
+
+  padding: 11px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.7s;
+}
+.searchInput {
+  width: 40%;
+}
+.redButton {
+  background-color: #fc6059;
+}
+.redButton:hover {
+  background-color: #800000;
+}
+/* GENERAL - BUTTONS AND INPUT */
+
+/* GENERAL - COlORING/STYLING TEXT */
+b {
+  padding-bottom: 10px;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.redText {
+  color: #fc6059;
+}
+.ltGreyText {
+  color: #f7f7ff;
+}
+.ltBlueText {
+  color: #bed5e9;
+}
+.blackText {
+  color: #000000;
+}
+.regBlueText {
+  color: #587498;
+}
+.darkBlueText {
+  color: #4a5866;
+}
+.underline {
+  text-decoration: underline;
+}
+.textCenter {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.lText {
+  font-size: 25px;
+}
+.xlText {
+  font-size: 35px;
+}
+.xxlText {
+  font-size: 45px;
+}
+/* GENERAL - COlORING/STYLING TEXT */
+
+/* GENERAL - BORDER */
+.sideBorderL {
+  border-left: 2px solid #000000;
+}
+/* GENERAL - BORDER */
+
+/* GENERAL - COlORING BACKGROUNDS */
+.ltBlueBackground {
+  background-color: #bed5e9;
+  width: 100%;
+}
+.ltGreyBackground {
+  background-color: #f7f7ff;
+  width: 100%;
+}
+.dkGreyBackground {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+/* GENERAL - COlORING BACKGROUNDS */
+
+/* GENERAL - LINKS */
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.blackLink {
+  color: black;
+  border-bottom: 2px solid #000000;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+.blackLink:hover {
+  color: #587498;
+  text-decoration: none;
+  border-bottom: 2px solid #587498;
+}
+.redLink {
+  color: #fc6059;
+  border-bottom: 2px solid #fc6059;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+.redLink:hover {
+  color: #800000;
+  text-decoration: none;
+  border-bottom: 2px solid #800000;
+}
+.linkMarginBottom {
+  margin-bottom: 20px;
+}
+.blueLink {
+  color: #587498;
+  border-bottom: 2px solid #587498;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+.blueLink:hover {
+  color: #243a58;
+  text-decoration: none;
+  border-bottom: 2px solid #243a58;
+}
+.blueArrowLink {
+  text-decoration: none;
+  border-bottom: none;
+}
+.blueArrowLink:hover {
+  color: #587498;
+  text-decoration: none;
+  border-bottom: 2px solid #587498;
+}
+.white-link {
+  color: #f2f2f2;
+  text-decoration: underline;
+}
+/* GENERAL - LINKS */
+
+/* GENERAL - DIVS */
+.rowM {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.rowWithMargin {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 92%;
+  margin: 0px 4%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leftOneThirdCol {
+  height: 100%;
+  width: 47%;
+  margin-right: 3%;
+}
+.rightTwoThirdCol {
+  height: 100%;
+  width: 57%;
+  margin-left: 3%;
+}
+.tri {
+  width: 31%;
+  margin: 0px 1%;
+}
+.triL {
+  width: 31%;
+  margin-right: 2%;
+}
+.triR {
+  width: 31%;
+  margin-left: 2%;
+}
+.quadAlt1 {
+  width: 20%;
+  margin-right: 3%;
+}
+.quadAlt2 {
+  width: 23%;
+  margin-right: 3%;
+  padding-left: 3%;
+}
+.centerVertical {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.centerHorizontal {
+  display: flex;
+  justify-content: center;
+}
+.width30percent {
+  width: 30%;
+  margin: 0px 35%;
+}
+.width40percent {
+  width: 40%;
+  margin: 0px 30%;
+}
+.width50percent {
+  width: 50%;
+  margin: 0px 25%;
+}
+/* GENERAL - DIVS */
+
+/* GENERAL - PADDING */
+.verticalPaddingM {
+  padding: 50px 0px;
+}
+/* GENERAL - PADDING */
+
+/* HOME PAGE STYLING */
+.main {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+.homeLanding {
+  height: 100vh;
+}
+.titleLandingText {
+  font-size: 450%;
+}
+
+.leftLandingCol {
+  height: 100%;
+  width: 57%;
+  margin-right: 3%;
+}
+.rightLandingCol {
+  height: 100%;
+  width: 20%;
+  margin-left: 17%;
+  margin-right: 3%;
+}
+
+.innerRightLandingCol {
+  border-left: solid 2px black;
+  padding-left: 40px;
+}
+
+/* HOME PAGE STYLING */
+
+/* SOFTWARE PAGE STYLING */
+.softwareListText {
+  margin: 0px;
+  font-size: 13px;
+}
+/* SOFTWARE PAGE STYLING */
