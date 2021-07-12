@@ -48,6 +48,13 @@ footer {
   width: 80%;
   margin: 10%;
 }
+.socialImgAlt {
+  width: 20px;
+  height: 20px;
+  margin: 15px;
+  margin-left: 0px;
+  transition: all 0.6s;
+}
 .socialImg {
   width: 20px;
   height: 20px;

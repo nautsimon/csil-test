@@ -43,7 +43,7 @@ function Home() {
               <br /> <br />
               <div className="socialBarRow">
                 <a href="https://www.facebook.com/uchicagocsil/">
-                  <img className="socialImg" alt="face" src={face}></img>
+                  <img className="socialImgAlt" alt="face" src={face}></img>
                 </a>
                 <a href="https://www.instagram.com/uchicagocsil/?hl=en">
                   <img className="socialImg" alt="insta" src={insta}></img>
