@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import hardwareSoftware from "../images/hardware_software_example_1.png";
 import booking from "../images/booking_example_1.png";
 import madd from "../images/madd_example_1.png";
+import atem from "../images/atem.png";
+import face from "../images/face.png";
+import insta from "../images/insta.png";
+import twit from "../images/twit.png";
 
 function Home() {
   return (
@@ -36,7 +40,21 @@ function Home() {
               <Link to="/contact" className="blackLink">
                 CONTACT US
               </Link>
-              <div className="landingContactBar"></div>
+              <br /> <br />
+              <div className="socialBarRow">
+                <a href="https://www.facebook.com/uchicagocsil/">
+                  <img className="socialImg" alt="face" src={face}></img>
+                </a>
+                <a href="https://www.instagram.com/uchicagocsil/?hl=en">
+                  <img className="socialImg" alt="insta" src={insta}></img>
+                </a>
+                <a href="https://twitter.com/UChicagoCSIL">
+                  <img className="socialImg" alt="twit" src={twit}></img>
+                </a>
+                <a href="mailto: csil@cs.uchicago.edu">
+                  <img className="socialImg" alt="atem" src={atem}></img>
+                </a>
+              </div>
             </div>
           </div>
         </div>
