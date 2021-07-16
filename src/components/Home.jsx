@@ -11,7 +11,7 @@ import twit from "../images/twit.png";
 function Home() {
   return (
     <div className="main">
-      <div className="homeLanding">
+      <div className="fullscreenVertical">
         <div className="rowWithMargin">
           <div className="leftLandingCol col">
             <p className="titleLandingText redText">

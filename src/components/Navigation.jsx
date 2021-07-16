@@ -5,6 +5,8 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Software from "./Software";
+import Visit from "./Visit";
+import Staff from "./Staff";
 import "./Navigation.css";
 // I made a navbar css file if thats alright, feel free to change anything
 
@@ -24,6 +26,8 @@ class Navigation extends React.Component {
                 <NavDropdown.Item href="/about">About</NavDropdown.Item>
                 <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
                 <NavDropdown.Item href="/software">Software</NavDropdown.Item>
+                <NavDropdown.Item href="/visit">Visit Us</NavDropdown.Item>
+                <NavDropdown.Item href="/staff">Staff</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
@@ -41,6 +45,12 @@ class Navigation extends React.Component {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/visit">
+            <Visit />
+          </Route>
+          <Route path="/staff">
+            <Staff />
           </Route>
         </Switch>
       </Router>

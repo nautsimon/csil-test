@@ -6,7 +6,7 @@ class Software extends React.Component {
     query: "",
     softwares: softwares.softwares,
   };
-  componentDidMount() {}
+
   handleChange = (e) => {
     this.setState({ query: e.target.value }, () => {
       for (let i = 0; i < this.state.softwares.length; i++) {
@@ -29,7 +29,9 @@ class Software extends React.Component {
         <div className="rowWithMargin verticalPaddingM col">
           <br />
           <br />
-          <p className="montserrat bold regBlueText">AVAILABLE SOFTWARE</p>
+          <p className="montserrat bold regBlueText underNegativeMargin">
+            AVAILABLE SOFTWARE
+          </p>
 
           <p className="redText xxlText">
             Learn more about what software we offer

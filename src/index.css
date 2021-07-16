@@ -27,6 +27,7 @@ html,
 
 /* FOOTER */
 footer {
+  margin-top: 60px;
   text-align: left;
   background-color: #4a5867;
   width: 100%;
@@ -40,7 +41,18 @@ footer {
 /* FOOTER */
 
 /* GENERAL - IMAGES */
-
+.iconDiv {
+  width: 8%;
+  margin-right: 6%;
+}
+.iconDivR {
+  width: 86%;
+  display: flex;
+  align-items: center;
+}
+.icons {
+  width: 100%;
+}
 .circleImage {
   border-radius: 50%;
 }
@@ -63,6 +75,11 @@ footer {
 }
 .socialImg:hover {
   opacity: 0.6;
+}
+.aboutIllus {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 /* GENERAL - IMAGES */
 
@@ -102,6 +119,9 @@ input {
 /* GENERAL - BUTTONS AND INPUT */
 
 /* GENERAL - COlORING/STYLING TEXT */
+.leftText {
+  text-align: left;
+}
 b {
   padding-bottom: 10px;
 }
@@ -144,12 +164,19 @@ b {
 .xxlText {
   font-size: 45px;
 }
+.noMarginText {
+  margin: 0px;
+}
 /* GENERAL - COlORING/STYLING TEXT */
 
 /* GENERAL - BORDER */
 .sideBorderL {
   border-left: 2px solid #000000;
 }
+.sideBorderR {
+  border-right: 2px solid #000000;
+}
+
 /* GENERAL - BORDER */
 
 /* GENERAL - COlORING BACKGROUNDS */
@@ -159,6 +186,10 @@ b {
 }
 .ltGreyBackground {
   background-color: #f7f7ff;
+  width: 100%;
+}
+.lterGreyBackground {
+  background: #f2f2f2;
   width: 100%;
 }
 .dkGreyBackground {
@@ -228,27 +259,60 @@ a:hover {
 /* GENERAL - LINKS */
 
 /* GENERAL - DIVS */
+.underNegativeMargin {
+  margin-bottom: -5px;
+}
 .rowM {
   display: flex;
   flex-direction: row;
   height: 100%;
   width: 100%;
 }
+.rowMH {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 .rowWithMargin {
   display: flex;
   flex-direction: row;
   height: 100%;
-  width: 92%;
-  margin: 0px 4%;
+  width: 88%;
+  margin: 0px 6%;
+}
+.bi {
+  width: 48%;
+  margin: 0px 1%;
+  display: flex;
+  flex-direction: column;
 }
 .col {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.leftOneThirdCol {
+.colWithMargin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 88%;
+  margin: 0px 6%;
+}
+.aboutColLeft {
+  height: 100%;
+  width: 42%;
+  margin-right: 3%;
+}
+.aboutColRight {
   height: 100%;
   width: 47%;
+  margin-left: 2%;
+  margin-right: 6%;
+}
+.leftOneThirdCol {
+  height: 100%;
+  width: 37%;
   margin-right: 3%;
 }
 .rightTwoThirdCol {
@@ -267,6 +331,18 @@ a:hover {
 .triR {
   width: 31%;
   margin-left: 2%;
+}
+.triWBorder {
+  width: 36.3%;
+  padding: 0px 8%;
+}
+.triLWBorder {
+  width: 29.3%;
+  padding-right: 8%;
+}
+.triRWBorder {
+  width: 29.3%;
+  padding-left: 8%;
 }
 .quadAlt1 {
   width: 20%;
@@ -312,8 +388,9 @@ a:hover {
   margin: 0px;
   width: 100%;
 }
-.homeLanding {
+.fullscreenVertical {
   height: 100vh;
+  width: 100%;
 }
 .titleLandingText {
   font-size: 450%;
@@ -350,3 +427,48 @@ a:hover {
   font-size: 13px;
 }
 /* SOFTWARE PAGE STYLING */
+
+/* STAFF PAGE STYLING */
+.topStaffColL {
+  width: 42%;
+  margin-right: 3%;
+}
+.topStaffColR {
+  width: 53%;
+  margin-left: 2%;
+  position: relative;
+}
+.staffIllGuyDiv {
+  position: absolute;
+  width: 50%;
+  bottom: 0px;
+}
+.staffIllGuy {
+  height: 100%;
+}
+.staffGuyProfileDiv {
+  position: absolute;
+  width: 30%;
+  max-width: 200px;
+  bottom: 10px;
+  left: 100px;
+}
+.staffIllGuyDisplay {
+  width: 100%;
+  bottom: 0px;
+}
+.staffColumns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.staffDiv {
+  width: 21%;
+  margin: 20px 2%;
+  display: flex;
+  flex-direction: column;
+}
+.staffPicture {
+  width: 80%;
+  margin: 10px 10%;
+}
+/* STAFF PAGE STYLING */
