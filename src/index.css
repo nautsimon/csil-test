@@ -76,6 +76,9 @@ footer {
 .socialImg:hover {
   opacity: 0.6;
 }
+.socialImgAlt:hover {
+  opacity: 0.6;
+}
 .aboutIllus {
   width: 90%;
   margin-right: 5%;
@@ -140,6 +143,9 @@ b {
 .blackText {
   color: #000000;
 }
+.whiteText {
+  color: #ffffff;
+}
 .regBlueText {
   color: #587498;
 }
@@ -151,6 +157,9 @@ b {
 }
 .textCenter {
   text-align: center;
+}
+.textAlignRight {
+  text-align: right;
 }
 .bold {
   font-weight: bold;
@@ -166,6 +175,12 @@ b {
 }
 .noMarginText {
   margin: 0px;
+}
+.topTextSpace {
+  margin-top: 7px;
+}
+.leftTextSpace {
+  margin-left: 5px;
 }
 /* GENERAL - COlORING/STYLING TEXT */
 
@@ -206,6 +221,15 @@ a {
 a:hover {
   text-decoration: none;
 }
+.whiteLink {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+.whiteLink:hover {
+  color: #fc6059;
+  text-decoration: none;
+}
 
 .blackLink {
   color: black;
@@ -243,6 +267,7 @@ a:hover {
   text-decoration: none;
   border-bottom: 2px solid #243a58;
 }
+
 .blueArrowLink {
   text-decoration: none;
   border-bottom: none;
@@ -252,10 +277,7 @@ a:hover {
   text-decoration: none;
   border-bottom: 2px solid #587498;
 }
-.white-link {
-  color: #f2f2f2;
-  text-decoration: underline;
-}
+
 /* GENERAL - LINKS */
 
 /* GENERAL - DIVS */
@@ -290,6 +312,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.colNoCenter {
+  display: flex;
+  flex-direction: column;
 }
 .colWithMargin {
   display: flex;
@@ -344,6 +370,10 @@ a:hover {
   width: 29.3%;
   padding-left: 8%;
 }
+.quad {
+  width: 25%;
+  padding: 0px 1%;
+}
 .quadAlt1 {
   width: 20%;
   margin-right: 3%;
@@ -373,6 +403,10 @@ a:hover {
 .width50percent {
   width: 50%;
   margin: 0px 25%;
+}
+.width70percent {
+  width: 70%;
+  margin: 0px 15%;
 }
 /* GENERAL - DIVS */
 
@@ -457,9 +491,10 @@ a:hover {
   width: 100%;
   bottom: 0px;
 }
-.staffColumns {
+.wrapColumns {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 .staffDiv {
   width: 21%;
@@ -472,3 +507,95 @@ a:hover {
   margin: 10px 10%;
 }
 /* STAFF PAGE STYLING */
+
+/* MINICOURSE PAGE STYLING */
+.minicourseCard {
+  width: 29.3%;
+  margin: 20px 2%;
+  min-height: 450px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.minicourseCardIn {
+  width: 100%;
+  height: 100%;
+  background: #bed5e9;
+  border-radius: 10px;
+}
+
+.minicourseCardImgDiv {
+  width: 80%;
+  margin: 0px 10%;
+}
+.cardImg {
+  position: relative;
+  width: 90%;
+  margin: 0px 5%;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.cardIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.smText {
+  font-size: 12px;
+}
+.cardRow {
+  display: flex;
+  flex-direction: row;
+}
+.leftCardSpace {
+  margin-left: 15px;
+}
+.cardLinkDiv {
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.cardLinkDiv:hover {
+  opacity: 0.7;
+}
+/* MINICOURSE PAGE STYLING */
+
+/* FOOTER PAGE STYLING */
+.footerLeftDiv {
+  width: 70%;
+}
+.footerRightDiv {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* FOOTER PAGE STYLING */
+
+/* CONTACT PAGE STYLING */
+.contactIll {
+  width: 90%;
+  margin: 0px 5%;
+}
+.contactMapTextDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  width: 55%;
+}
+.contactButtonDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.contactButtonSubmit {
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.contactButtonSubmit:hover {
+  color: #bed5e9;
+}
+.contactStatus {
+  transition: all 1s;
+}
+/* CONTACT PAGE STYLING */

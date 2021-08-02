@@ -65,7 +65,7 @@ class Staff extends React.Component {
           </div>
         </div>
         <div className="rowWithMargin verticalPaddingM">
-          <div className="staffColumns">
+          <div className="wrapColumns">
             {this.state.staff_members.map((staff_member, i) => {
               return (
                 <div className="staffDiv textCenter">
