@@ -15,7 +15,7 @@ function Home() {
             ABOUT CSIL
           </p>
           <p className="redText xxlText">
-            Serving students and faculty for nearly 30 years
+            Serving students and faculty for over 30 years
           </p>
           <div className="rowM">
             <div className="aboutColLeft">
